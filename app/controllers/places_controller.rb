@@ -6,4 +6,8 @@ class PlacesController < ApplicationController
 		#render :json => @places
 	end
 
+	def new
+		@place = Place.new
+	end
+
 end

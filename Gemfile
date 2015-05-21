@@ -41,6 +41,8 @@ gem 'geocoder'
 
 gem 'figaro', '>= 1.0.0'
 
+gem 'annotate'
+
 
 
 group :doc do

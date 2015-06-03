@@ -43,6 +43,8 @@ gem 'figaro', '>= 1.0.0'
 
 gem 'annotate'
 
+gem 'carrierwave'
+
 
 
 group :doc do

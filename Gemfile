@@ -45,6 +45,8 @@ gem 'annotate'
 
 gem 'carrierwave'
 
+gem "fog", "~> 1.3.1"
+
 
 
 group :doc do

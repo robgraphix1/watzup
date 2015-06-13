@@ -83,7 +83,7 @@ blockquote p {
 	background-color: #e1e0e0;
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    height: 550px;
+    max-height: 550px;
     width: 100%
 }
 .carousel-caption {

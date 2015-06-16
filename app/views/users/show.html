@@ -6,7 +6,7 @@
 		<h1><%= @user.email %></h1>
 		<h3>Member since: <%= @user.created_at.strftime("%B %d, %Y") %></h3>
 		<h4><%= @user.comments.count %> total comments</h4>
-		<h4><%= @user.comments.where(:rating => '5_stars').count %> 5 star comments</h4>
+		<h4><%= @user.comments.where(:rating => '5_star').count %> total 5 star comments</h4>
 	</div>
 	<div class="clear"></div>
 </div>

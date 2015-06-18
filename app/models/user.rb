@@ -24,5 +24,5 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
  has_many :places
- has_many :comments
+ has_many :comments, dependent: :destroy
 end

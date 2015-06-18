@@ -15,7 +15,7 @@
 <br /><br />
 <% @user.comments.each do |comment| %>
  <div class="col-xs-12 col-sm-6">
- 	<% if comment.place.name.present? %>
+ 	<% if comment.place.present? %>
  	<h2 class="text-center"><%= link_to comment.place.name, place_path(comment.place) %></h2>
  	<% end %>
     <blockquote>

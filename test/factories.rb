@@ -17,4 +17,9 @@ FactoryGirl.define do
 		association :user
 	end
 
+	factory :user do
+		email "me@gmail.com"
+		password "password"
+	end
+
 end

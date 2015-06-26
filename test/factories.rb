@@ -18,8 +18,11 @@ FactoryGirl.define do
 	end
 
 	factory :user do
-		email "me@gmail.com"
-		password "password"
-	end
+    sequence :email do |n|
+      "yoloman#{n}@gmail.com"
+    end
+    password "omglolhahaha"
+    password_confirmation "omglolhahaha"
+  end
 
 end
